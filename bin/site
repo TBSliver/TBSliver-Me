@@ -10,9 +10,15 @@ use App::SCS;
 my $scs = App::SCS->new(
   config => {
     plugins => [
+      Feeds => {
+        'blog' => {
+          title => "TBSliver's Blog",
+          entries => { min_depth => 1, max_depth => 4 },
+        },
+      },
       Blog => {},
       Server => {},
-      Generate => {},
+      Generate => { host => 'tbsliver.me' },
       Actions => {},
     ]
   }
