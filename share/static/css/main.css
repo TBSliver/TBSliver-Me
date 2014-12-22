@@ -7,6 +7,10 @@ body {
   margin: auto;
 }
 
+footer {
+  padding-top: 30px;
+}
+
 .external-links {
   text-align: center;
 }

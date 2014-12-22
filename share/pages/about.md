@@ -1,5 +1,7 @@
 title: TBSliver - About
 
-# Who Am I
+# Who is this insane individual?
 
-A developer working for Shadowcat Systems
+I am a developer working for [Shadowcat Systems][1] in Lancaster
+
+[1]: http://shadow.cat "Shadowcat Systems Limited"
