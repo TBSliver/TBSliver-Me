@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px;
+}
+
+.main {
+  max-width: 65em;
+  margin: auto;
+}
+
+.external-links {
+  text-align: center;
+}

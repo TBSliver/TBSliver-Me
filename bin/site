@@ -1,0 +1,21 @@
+#! /usr/bin/env perl
+
+use strictures 1;
+use FindBin qw/ $Bin /;
+use lib "$Bin/../../App-SCS/lib";
+use lib "$Bin/../../App-SCS-Blog/lib";
+
+use App::SCS;
+
+my $scs = App::SCS->new(
+  config => {
+    plugins => [
+      Blog => {},
+      Server => {},
+      Generate => {},
+      Actions => {},
+    ]
+  }
+);
+
+$scs->run_if_script;
