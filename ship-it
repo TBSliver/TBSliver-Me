@@ -1,0 +1,10 @@
+#! /bin/sh
+
+if [ ! -e "out" ]
+then
+  echo "This wont work! Have you generated the site yet?"
+  exit 255;
+fi
+
+rsync -avz -e ssh out/ tbsliver-me:/var/www/tbsliver.me
+rsync -avz -e ssh share/static/ tbsliver-me:/var/www/tbsliver.me/static
