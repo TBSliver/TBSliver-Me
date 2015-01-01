@@ -44,6 +44,12 @@ Among other channels...
 
 Im not very active on this server, so better asking on Freenode, or Perl.
 
+## Twitter
+
+My twitter account is [TBSliver on Twitter][twitter]
+
+[twitter]: https://twitter.com/tbsliver "TBSliver on Twitter"
+
 ## Email
 
 This is my personal e-mail address - please leave the '+tbs.me' part of the
