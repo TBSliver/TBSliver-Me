@@ -18,3 +18,17 @@ footer {
 .external-link-image {
   padding: 10px;
 }
+
+.blog-side-image {
+  float: right;
+}
+
+.blog-side-image img {
+  width: 200px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.blog-side-image .image-caption {
+  text-align: center;
+}
