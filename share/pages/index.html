@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>TBSliver - Homepage</title>
+    <extra-head>
+      <link href="/static/css/index.css" rel="stylesheet" />
+      <script src="/static/js/d3.min.js"></script>
+      <script src="/static/js/trianglify.min.js"></script>
+      <script>
+        function renew(banner_div) {
+          var t = new Trianglify({
+            cellsize: 60,
+          });
+          var pattern = t.generate(banner_div.scrollWidth, banner_div.scrollHeight);
+          return pattern.dataUrl;
+        }
+        window.onload = function() {
+          var banner_div = document.getElementsByClassName("banner")[0];
+          banner_div.style.backgroundImage = renew(banner_div);
+        }
+        window.setInterval(
+          function () {
+            var banner_div = document.getElementsByClassName("banner")[0];
+            banner_div.style.transition = "all 1s";
+            banner_div.style.backgroundImage = renew(banner_div);
+          },
+          10000
+        );
+      </script>
+    </extra-head>
+  </head>
+<body>
+
+<div class="banner">
+  <div class="banner-stripe">
+  <div class="banner-text">
+    <h1>Tom Bloor</h1>
+    <h2 class="banner-subtitle">Insane Individual</h2>
+  </div>
+  </div>
+</div>
+
+<div class="content">
+<h1>Welcome</h1>
+
+<p>This site is still being worked on, however you can always see whats happening
+in the <a href="/blog">Blog</a></p>
+</div>
+</body>
+</html>
