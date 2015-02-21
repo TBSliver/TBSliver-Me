@@ -1,0 +1,84 @@
+#! /usr/bin/env perl
+
+use strictures 1;
+
+use POSIX;
+use IO::All;
+use File::Path qw/ make_path /;
+
+my $name = $ARGV[0] || 'blog';
+
+# 2014-12-22 05:11:00
+sub generate_date {
+
+  my (
+    $seconds,
+    $minutes,
+    $hours,
+    $day,
+    $month,
+    $year,
+    $wd,
+    $yday,
+    $isdst
+  ) = localtime( time );
+
+  my $str = POSIX::strftime(
+    "%Y-%m-%d %H:%M:%S",
+    $seconds,
+    $minutes,
+    $hours,
+    $day,
+    $month,
+    $year,
+  );
+  return {
+    string => $str,
+    seconds => $seconds,
+    minutes => $minutes,
+    hours => $hours,
+    day => $day,
+    month => $month + 1,
+    year => $year + 1900,
+  }
+}
+
+sub generate_contents() {
+
+	my $date = generate_date();
+
+	my $directory = sprintf(
+		"share/pages/blog/%d/%02d/%02d",
+		$date->{year},
+		$date->{month},
+    $date->{day},
+	);
+
+	my $filename = $directory . "/$name.md";
+
+	my $content = <<END;
+title: Post $date->{day} - $date->{month}
+subtitle: Testing post
+description: More testable
+created: $date->{string}
+
+# Blog Post
+
+test for the date $date->{string}
+END
+
+	return {
+		directory => $directory,
+		filename => $filename,
+		content => $content,
+	};
+}
+
+my $gen_file = generate_contents();
+
+print "$name Generated at " . $gen_file->{filename} . "\n";
+
+make_path( $gen_file->{directory} );
+
+io($gen_file->{filename})->print($gen_file->{content});
+
