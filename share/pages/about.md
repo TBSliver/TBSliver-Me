@@ -30,7 +30,7 @@ contact with me.
 
 Among other channels...
 
-### irc.frenode.net
+### irc.freenode.net
 
 - #hacman
 - #lamm
@@ -46,9 +46,9 @@ Im not very active on this server, so better asking on Freenode, or Perl.
 
 ## Twitter
 
-My twitter account is [TBSliver on Twitter][twitter]
+My twitter account is [TBSliver on Twitter][tbsliver-twitter]. Feel free to follow me!
 
-[twitter]: https://twitter.com/tbsliver "TBSliver on Twitter"
+[tbsliver-twitter]: https://twitter.com/tbsliver "TBSliver on Twitter"
 
 ## Email
 
@@ -65,13 +65,13 @@ document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" +
 
 ## GitHub
 
-My GitHub account is [TBSliver at GitHub][github]
+My GitHub account is [TBSliver at GitHub][tbsliver-github]
 
-[github]: https://github.com/TBSliver "TBSliver at GitHub"
+[tbsliver-github]: https://github.com/TBSliver "TBSliver at GitHub"
 
 ## Deviant Art
 
-My deviant art account is [TBSliver at DeviantArt][deviant-art]
+My deviant art account is [TBSliver at DeviantArt][tbsliver-deviant-art]
 
-[deviant-art]: http://tbsliver.deviantart.com/ "TBSliver at DeviantArt"
+[tbsliver-deviant-art]: https://tbsliver.deviantart.com/ "TBSliver at DeviantArt"
 
