@@ -2,5 +2,12 @@
   padding: 0px 18px;
 }
 
-.project-link {
+.project-link h1 {
+  margin-top: 0px;
+}
+
+/* Currently there is only ever one paragraph in this section, so it can be
+ * shrunk slightly. */
+.project-description p {
+  margin-bottom: 0px;
 }

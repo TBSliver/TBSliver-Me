@@ -66,8 +66,6 @@ sub generate_contents() {
 
 	my $content = <<END;
 title: Post $date->{day} - $date->{month}
-subtitle: Testing post
-description: More testable
 created: $date->{string}
 
 # Blog Post
