@@ -1,5 +1,6 @@
-.log-list {
-  padding: 18px 18px;
+.project-heading {
+  width: 100%;
+  text-align: center;
 }
 
 .log-entry {
@@ -7,21 +8,19 @@
   padding-bottom: 0px;
 }
 
-.log-date {
-  width: 25%;
-  padding-top: 18px;
-  padding-left: 18px;
-}
-
 .log-link {
-  width: 75%;
+  padding: 18px;
 }
 
-.log-list h3 {
+.log-link h3 {
+  margin: 0px;
+}
+
+.panel-title {
   display: inline-block;
 }
 
-.log-list-rss {
+.panel-title-image {
   padding-right: 10px;
   color: white;
 }
