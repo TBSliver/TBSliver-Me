@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>App::SCS::Blog</title>
+  <meta name="subtitle" content="Plugin for App::SCS" />
+  <meta name="description" content="App::SCS::Blog is a plugin which generates
+  a blog list for App::SCS, as used on this site." />
+  <meta name="plugins" content="BlogArchive { max_depth: 4, min_depth: 1, sub_dir: log }" />
+    <extra-head>
+      <link href="/static/css/project-detail.css" rel="stylesheet" />
+    </extra-head>
+</head>
+<body>
+  <div class="project-heading">
+
+    <h1>App::SCS::Blog</h1>
+
+    <p>This plugin is for adding a blog list to an App::SCS site. This will
+    generate a blog list, and eventually support pagination of a large
+    archive.</p>
+
+  </div>
+  <div class="log-list">
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      <a href="http://tbsliver.me/feed/projects/app-scs-blog/log/index.atom" target="_blank"><i class="log-list-rss fa fa-rss"></i></a><h3 class="panel-title">Progress Log</h3>
+    </div>
+    <div class="BlogList">
+      <div class="log-entry">
+        <div class="panel panel-default">
+        <div class="panel-body block-group">
+        <div class="log-date block">
+          <p><span class="entry published_at"></span></p>
+        </div>
+        <div class="log-link block">
+          <a class="entry link">
+            <h3 class="entry title"></h1>
+          </a>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

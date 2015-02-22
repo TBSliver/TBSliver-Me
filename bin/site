@@ -15,6 +15,10 @@ my $scs = App::SCS->new(
           title => "TBSliver's Blog",
           entries => { min_depth => 1, max_depth => 4 },
         },
+        'projects/app-scs-blog/log' => {
+          title => "App::SCS::Blog Log",
+          entries => { min_depth => 1, max_depth => 4 },
+        },
       },
       Blog => {},
       Server => {},

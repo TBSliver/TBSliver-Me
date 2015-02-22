@@ -1,0 +1,32 @@
+/* Add specific spacing for first project-entry */
+
+.BlogList:first-child {
+  padding-top: 18px;
+}
+
+@media (min-width: 768px) {
+  .project-entry:nth-child(even) {
+    padding-left: 9px;
+    padding-right: 18px;
+  }
+
+  .project-entry:nth-child(odd) {
+    padding-left: 18px;
+    padding-right: 9px;
+  }
+
+  .project-entry {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-entry {
+    width: 98%;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+.project-link {
+}

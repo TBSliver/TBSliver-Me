@@ -1,0 +1,27 @@
+.log-list {
+  padding: 18px 18px;
+}
+
+.log-entry {
+  padding: 18px 18px;
+  padding-bottom: 0px;
+}
+
+.log-date {
+  width: 25%;
+  padding-top: 18px;
+  padding-left: 18px;
+}
+
+.log-link {
+  width: 75%;
+}
+
+.log-list h3 {
+  display: inline-block;
+}
+
+.log-list-rss {
+  padding-right: 10px;
+  color: white;
+}
