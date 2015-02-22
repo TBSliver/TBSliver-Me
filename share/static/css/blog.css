@@ -1,11 +1,11 @@
 /* Add specific spacing for first blog-entry */
 .BlogList:first-child {
-  margin-top: 18px;
+  padding-top: 18px;
 }
 
 .blog-entry {
-  margin-left: 18px;
-  margin-right: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .blog-date {
