@@ -54,8 +54,8 @@ any of my servers. And here is what I've looked at.
 
 ## Elementary OS
 
-Yes, ok, its a desktop only distribution, but its been intreaguing me for quite
-a while, and with a new release just out, I thought I'd take a quick peak at
+Yes, ok, its a desktop only distribution, but its been intriguing me for quite
+a while, and with a new release just out, I thought I'd take a quick peek at
 it. First thing to notice is, it's definitely based on Ubuntu, with a very nice
 interface. However, the machine I installed it on doesnt have much grunt, and
 so due to the fact it seems to be a heavily re-skinned Gnome 3 interface, it
