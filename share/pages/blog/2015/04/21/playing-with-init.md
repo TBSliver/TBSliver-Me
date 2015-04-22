@@ -3,7 +3,7 @@ subtitle: How many distros?
 description: In which I go over the many things I've just tried on a spare laptop, to see whats available.
 created: 2015-04-21 22:28:16
 
-# Paying With Init
+# Playing With Init
 
 So this is less about me playing with init itself, but playing with multiple
 different distros which have different init systems. But why, you may ask? Well
